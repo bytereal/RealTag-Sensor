@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354546921433C8990074AF72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546911433C8990074AF72 /* UIKit.framework */; };
+		354546941433C8990074AF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546931433C8990074AF72 /* Foundation.framework */; };
+		354546961433C8990074AF72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546951433C8990074AF72 /* CoreGraphics.framework */; };
+		3545469C1433C8990074AF72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3545469A1433C8990074AF72 /* InfoPlist.strings */; };
+		3545469E1433C8990074AF72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545469D1433C8990074AF72 /* main.m */; };
+		354546A21433C8990074AF72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354546A11433C8990074AF72 /* AppDelegate.m */; };
+		354546AD1433CCE10074AF72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546AC1433CCE10074AF72 /* QuartzCore.framework */; };
+		354546AF1433CCE80074AF72 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546AE1433CCE80074AF72 /* OpenGLES.framework */; };
+		354546B11433CCED0074AF72 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354546B01433CCED0074AF72 /* GLKit.framework */; };
+		354546B31433FFCD0074AF72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354546B21433FFCD0074AF72 /* MainStoryboard.storyboard */; };
+		354546B61434008F0074AF72 /* RealTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354546B51434008F0074AF72 /* RealTagViewController.m */; };
+		354546BA14342F0D0074AF72 /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 354546B914342F0D0074AF72 /* tile_floor.png */; };
+		C50C8DB218D8358C00A26191 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50C8DB118D8358C00A26191 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3545468D1433C8990074AF72 /* RealTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354546911433C8990074AF72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		354546931433C8990074AF72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		354546951433C8990074AF72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		354546991433C8990074AF72 /* RealTag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealTag-Info.plist"; sourceTree = "<group>"; };
+		3545469B1433C8990074AF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3545469D1433C8990074AF72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3545469F1433C8990074AF72 /* RealTag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealTag-Prefix.pch"; sourceTree = "<group>"; };
+		354546A01433C8990074AF72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		354546A11433C8990074AF72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		354546AC1433CCE10074AF72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		354546AE1433CCE80074AF72 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		354546B01433CCED0074AF72 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		354546B21433FFCD0074AF72 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		354546B41434008F0074AF72 /* RealTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTagViewController.h; sourceTree = "<group>"; };
+		354546B51434008F0074AF72 /* RealTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTagViewController.m; sourceTree = "<group>"; };
+		354546B914342F0D0074AF72 /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
+		C50C8DB118D8358C00A26191 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3545468A1433C8990074AF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50C8DB218D8358C00A26191 /* CoreBluetooth.framework in Frameworks */,
+				354546B11433CCED0074AF72 /* GLKit.framework in Frameworks */,
+				354546AF1433CCE80074AF72 /* OpenGLES.framework in Frameworks */,
+				354546AD1433CCE10074AF72 /* QuartzCore.framework in Frameworks */,
+				354546921433C8990074AF72 /* UIKit.framework in Frameworks */,
+				354546941433C8990074AF72 /* Foundation.framework in Frameworks */,
+				354546961433C8990074AF72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354546821433C8990074AF72 = {
+			isa = PBXGroup;
+			children = (
+				354546971433C8990074AF72 /* RealTag */,
+				354546901433C8990074AF72 /* Frameworks */,
+				3545468E1433C8990074AF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3545468E1433C8990074AF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3545468D1433C8990074AF72 /* RealTag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354546901433C8990074AF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50C8DB118D8358C00A26191 /* CoreBluetooth.framework */,
+				354546B01433CCED0074AF72 /* GLKit.framework */,
+				354546AE1433CCE80074AF72 /* OpenGLES.framework */,
+				354546AC1433CCE10074AF72 /* QuartzCore.framework */,
+				354546911433C8990074AF72 /* UIKit.framework */,
+				354546931433C8990074AF72 /* Foundation.framework */,
+				354546951433C8990074AF72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		354546971433C8990074AF72 /* RealTag */ = {
+			isa = PBXGroup;
+			children = (
+				C5CFAC6118D933BC00E1BE94 /* iPad */,
+				354546B914342F0D0074AF72 /* tile_floor.png */,
+				354546A01433C8990074AF72 /* AppDelegate.h */,
+				354546A11433C8990074AF72 /* AppDelegate.m */,
+				354546B41434008F0074AF72 /* RealTagViewController.h */,
+				354546B51434008F0074AF72 /* RealTagViewController.m */,
+				354546B21433FFCD0074AF72 /* MainStoryboard.storyboard */,
+				354546981433C8990074AF72 /* Supporting Files */,
+			);
+			path = RealTag;
+			sourceTree = "<group>";
+		};
+		354546981433C8990074AF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				354546991433C8990074AF72 /* RealTag-Info.plist */,
+				3545469A1433C8990074AF72 /* InfoPlist.strings */,
+				3545469D1433C8990074AF72 /* main.m */,
+				3545469F1433C8990074AF72 /* RealTag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5CFAC6118D933BC00E1BE94 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3545468C1433C8990074AF72 /* RealTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354546A51433C8990074AF72 /* Build configuration list for PBXNativeTarget "RealTag" */;
+			buildPhases = (
+				354546891433C8990074AF72 /* Sources */,
+				3545468A1433C8990074AF72 /* Frameworks */,
+				3545468B1433C8990074AF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTag;
+			productName = RealTag;
+			productReference = 3545468D1433C8990074AF72 /* RealTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354546841433C8990074AF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					3545468C1433C8990074AF72 = {
+						DevelopmentTeam = FRH4R7FF2R;
+					};
+				};
+			};
+			buildConfigurationList = 354546871433C8990074AF72 /* Build configuration list for PBXProject "RealTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 354546821433C8990074AF72;
+			productRefGroup = 3545468E1433C8990074AF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3545468C1433C8990074AF72 /* RealTag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3545468B1433C8990074AF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3545469C1433C8990074AF72 /* InfoPlist.strings in Resources */,
+				354546B31433FFCD0074AF72 /* MainStoryboard.storyboard in Resources */,
+				354546BA14342F0D0074AF72 /* tile_floor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354546891433C8990074AF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3545469E1433C8990074AF72 /* main.m in Sources */,
+				354546A21433C8990074AF72 /* AppDelegate.m in Sources */,
+				354546B61434008F0074AF72 /* RealTagViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3545469A1433C8990074AF72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3545469B1433C8990074AF72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354546A31433C8990074AF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		354546A41433C8990074AF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354546A61433C8990074AF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTag/RealTag-Prefix.pch";
+				INFOPLIST_FILE = "RealTag/RealTag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		354546A71433C8990074AF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTag/RealTag-Prefix.pch";
+				INFOPLIST_FILE = "RealTag/RealTag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354546871433C8990074AF72 /* Build configuration list for PBXProject "RealTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354546A31433C8990074AF72 /* Debug */,
+				354546A41433C8990074AF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354546A51433C8990074AF72 /* Build configuration list for PBXNativeTarget "RealTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354546A61433C8990074AF72 /* Debug */,
+				354546A71433C8990074AF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354546841433C8990074AF72 /* Project object */;
+}
