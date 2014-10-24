@@ -22,7 +22,7 @@ RealTag-Sensor
 ## Realtag iBeacon firmware instructions
 * the modified parameters, Tag need to re-power [power off and then open]
 * the operating state, the blue LED D1 broadcast frequency signal among the flashing
-* work, press 52 button stop / start broadcasting [radio automatically when power is tumed on by default]
+* work, press S2 button stop / start broadcasting [radio automatically when power is tumed on by default]
 * the connected state will not broadcast resumed broadcasting that disconnected
 * after connecting the battery power can be viewed by Battery Service
 
