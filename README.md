@@ -1,6 +1,7 @@
 RealTag-Sensor
 ==============
-(All information found [here](http://www.aliexpress.com/item/Realtag-BLE-sensor-wearable-CC2541-MPU6050-BMP180-iBeacon-given/1934305869.html))
+* (All information found [here](http://www.aliexpress.com/item/Realtag-BLE-sensor-wearable-CC2541-MPU6050-BMP180-iBeacon-given/1934305869.html))
+* [This presentation](http://www.addta.com/resources/RealTag%20iBeacon_Sensor%20product%20guide.pdf) provides additional information about the pins, firmware development, ...
 
 ## Exaple usecases
 1. Open Wearable Platform wearable platform
